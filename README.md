@@ -6,7 +6,7 @@ Projeto web interativo que permite ao usuário gerar imagens a partir de descri�
 
 ## 🚀 Visão Geral
 
-Este projeto utiliza **HTML5**, **CSS3** e **JavaScript** para criar uma interface interativa e responsiva. O usuário pode inserir um prompt textual para gerar imagens por IA (simulado ou integrado com uma API como OpenAI DALL·E). O projeto inclui também uma **galeria com pré-visualizações**, uma página “Sobre” com explicações do sistema e um **formulário de contato funcional na interface**.
+Este projeto utiliza **HTML5**, **CSS3** e **JavaScript** para criar uma interface interativa e responsiva. O usuário pode inserir um prompt textual para gerar imagens por IA. O projeto inclui também uma **galeria com pré-visualizações**, uma página **Sobre** com explicações do sistema e um **formulário de contato funcional na interface**.
 
 ---
 
@@ -25,7 +25,7 @@ Este projeto utiliza **HTML5**, **CSS3** e **JavaScript** para criar uma interfa
 
 - **HTML5**
 - **CSS3 (Flexbox + Grid)**
-- **JavaScript Vanilla (ES6+)**
+- **JavaScript**
 - **Google Fonts** (`Inter`, `Dancing Script`)
 - Recursos visuais com:
   - `transform: scale()`
@@ -37,7 +37,9 @@ Este projeto utiliza **HTML5**, **CSS3** e **JavaScript** para criar uma interfa
 
 ## 📁 Estrutura de Arquivos
 📦 gerador-imagens-ia
+
 /projeto-gerador-imagens-ia/
+
 │-- index.html        (Página inicial - Introdução ao projeto)  
 │-- gerar.html        (Página para geração de imagens)  
 │-- galeria.html      (Galeria de imagens geradas)  
