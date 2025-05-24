@@ -52,6 +52,10 @@ body{
     color: var(--cor-hover);
 }
 
+#nav-bar a::active{
+    color: var(--cor-hover);
+}
+
 .banner-principal{
     display: flex;
     flex-direction: column;
@@ -134,16 +138,14 @@ section{
 
 
 .listas{
-    list-style-type: none;
     margin: 1% 0 1% 2%;
 }
 
 .conteudo-paragrafo-frase-final{
     font-family: 'Dancing Script', cursive;
-    font-size:2rem;
+    font-size:3rem;
     text-align: center;
     color: var(--cor-secundaria);
-    margin: 2% 0;
 }
 
 .cards{
@@ -160,24 +162,27 @@ section{
     text-align: center;
     background-color: var(--cor-secundaria);
     color: #FFFFFF;
-    padding: 2%;
-    width: 250px;
-    height: 250px;
+    padding: 4%;
     border-radius: 25px;
+    width: 300px;
 }
 
 .card:hover{
     background-color: var(--cor-hover);
     transform: translateY(-10px); 
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .card img{
-    width: 70px;
+    width: 100px;
 }
 
 .card h3{
     margin: 5px 0 20px 0;
+    font-size: 1.5rem;
+}
+
+.card p{
     font-size: 1.3rem;
 }
 
@@ -192,6 +197,10 @@ section{
     flex-direction: column;
     gap: 5%;
     width: 70%;
+}
+
+.form-label-hidden{
+    display:none;
 }
 
 ::placeholder{
@@ -218,13 +227,21 @@ section{
     color: var(--cor-secundaria);
 }
 
+
 textarea {
     resize: none;
 }
 
-.form-label-hidden{
-    display:none;
+.form-gerar{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width:80%;
+    margin:auto;
+    margin-top: 2%;
 }
+
+
 
 #assunto{
     display: block;
@@ -246,6 +263,10 @@ textarea {
     border: 2px solid var(--cor-secundaria);
     color: var(--cor-secundaria);
     cursor: pointer;
+}
+
+#button-gerar{
+    padding: 1% 0;
 }
 
 .galeria {

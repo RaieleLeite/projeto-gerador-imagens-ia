@@ -1,0 +1,198 @@
+@media (max-width: 850px) {
+  #nav-bar a{
+    font-size: 1.1rem;
+    }
+
+    #header-logo{
+    width: 40px;
+    }
+
+    .banner-principal{
+    height: 40vh;
+    }
+
+    .banner-principal-color{
+    height: 40vh;
+    }
+
+    .titulo{
+    font-size: 4rem;
+    }
+
+    .titulo-diferente{
+    font-size: 1.8rem;
+    }
+
+    .conteudo-paragrafo{
+    font-size:1rem;
+    }
+
+    .subtitulo{
+    font-size: 1.3rem;
+    }
+
+    .conteudo-paragrafo-frase-final{
+    font-size:2rem;
+    }
+
+     .cards{
+        gap: 2%;
+    }
+
+    .card{
+        width: 300px;
+    }
+
+
+    .card img{
+        width: 50px;
+    }
+
+    .card h3{
+        font-size: 1.2rem;
+    }
+
+    .card p{
+    font-size: 1rem;
+    }
+
+    footer{
+    padding: 2% 0;
+    font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+  #nav-bar a{
+    font-size: 0.8rem;
+    }
+
+    #header-logo{
+    width: 30px;
+    }
+
+    .banner-principal{
+    height: 30vh;
+    border-radius: 30px;
+    }
+
+    .banner-principal-color{
+    height: 30vh;
+    border-radius: 30px;
+    }
+
+    .banner-contato{
+    border-radius: 15px;
+    width: 90%;
+    margin: auto;
+    }
+
+    .banner-contato p{
+    font-size:1rem;
+    }
+
+
+    .titulo{
+    font-size: 2.5rem;
+    }
+
+    .titulo-diferente{
+    font-size: 1.2rem;
+    }
+
+    .conteudo{
+    margin: 6% 4%;
+    }
+
+    .conteudo-paragrafo{
+    font-size:0.7rem;
+    }
+
+    .subtitulo{
+    font-size: 1rem;
+    }
+
+    .conteudo-paragrafo-frase-final{
+    font-size:1.5rem;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card{
+        width: 200px;
+    }
+
+
+    .card img{
+        width: 30px;
+    }
+
+    .card h3{
+        margin: 5px 0 5px 0;
+        font-size: 1rem;
+    }
+
+    .card p{
+    font-size: 0.7rem;
+    }
+
+
+
+    .galeria {
+    gap: 10px;                            
+    padding: 10px;
+    border-radius: 15px;
+    width: 60%;
+    transform: translateY(-50px);
+    }
+
+    .galeria img {       
+    border-radius: 5px;
+    }
+
+    ::placeholder{
+    font-size: 0.8rem;
+    }
+
+    .section-form{
+    flex-direction: column;
+    gap: 50px;
+    }
+
+    .section-form form{
+    margin:auto;
+    gap: 10px;
+    width: 90%;
+    }
+
+    .section-form-div{
+        gap: 10px;
+    }
+
+    .section-form-div input{
+        width: 100%;
+    }
+
+    .section-form-input{
+        border-radius: 10px;
+        padding: 1%;
+    }
+
+    .form-button{
+    padding:1% 0;
+
+    border-radius: 15px;
+    font-size: 0.8rem;
+    }
+
+    footer{
+    padding: 1% 0;
+    font-size: 0.8rem;
+    }
+
+}
