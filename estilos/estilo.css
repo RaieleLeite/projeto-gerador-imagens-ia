@@ -52,9 +52,6 @@ body{
     color: var(--cor-hover);
 }
 
-#nav-bar a::active{
-    color: var(--cor-hover);
-}
 
 .banner-principal{
     display: flex;
@@ -282,16 +279,60 @@ textarea {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.galeria img {
-    width: 100%;             
-    border-radius: 15px;
-    display: block;
+.imagem-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 15px;
 }
 
-.galeria img:hover {
-    transform: scale(1.05);  
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
-    transition: transform 0.3s ease;
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.sobreposicao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+  z-index: 2;
+}
+
+.button-download {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-download:hover {
+  background-color:var(--cor-hover);
+}
+
+.imagem-container:hover .img {
+  transform: scale(1.05);
+}
+
+.imagem-container:hover .sobreposicao {
+  opacity: 1;
 }
 
 footer{
