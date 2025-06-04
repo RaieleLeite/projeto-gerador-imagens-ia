@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos/estilo.css">
-    <link rel="stylesheet" href="/estilos/responsivo.css">
+    <link rel="stylesheet" href="estilos/estilo.css" />
+    <link rel="stylesheet" href="estilos/responsivo.css" />
+    <link rel="shortcut icon" href="assets/butterfly.svg" type="image/x-icon">
     <title>Contato</title>
 </head>
 <body>
     <header class="header">
         <nav id="nav-bar">
-            <a href="index.html"><img src="assets/logo.svg" alt="Logo" id="header-logo"/></a>
+            <a href="index.html">
+                <img src="./assets/logo.svg" alt="Logo" id="header-logo" />
+            </a>
             <a href="sobre.html"><strong>Sobre</strong></a>
             <a href="galeria.html"><strong>Galeria</strong></a>
             <a href="contato.html"><strong>Contato</strong></a>
@@ -24,25 +27,26 @@
         </div>
 
         <h2 class="titulo-diferente">Contato</h2>
+
         <section class="section-form">
             <form action="/enviar-contato" method="post">
                 <div class="section-form-div">
                     <label for="nome" class="form-label-hidden">Nome:</label>
-                    <input type="text" id="nome" name="nome" required placeholder="Nome" class="section-form-input">
+                    <input type="text" id="nome" name="nome" required placeholder="Nome" class="section-form-input" />
 
                     <label for="email" class="form-label-hidden">Email:</label>
-                    <input type="email" id="email" name="email" required placeholder="Email" class="section-form-input">
+                    <input type="email" id="email" name="email" required placeholder="Email" class="section-form-input" />
                 </div>
- 
 
                 <label for="assunto" class="form-label-hidden">Assunto:</label>
-                <input type="text" id="assunto" name="assunto" placeholder="Assunto" class="section-form-input"> 
+                <input type="text" id="assunto" name="assunto" placeholder="Assunto" class="section-form-input" />
 
                 <label for="mensagem" class="form-label-hidden">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="8" cols="60" required placeholder="Mensagem" class="section-form-input"></textarea>
+                <textarea id="mensagem" name="mensagem" rows="8" required placeholder="Mensagem" class="section-form-input"></textarea>
 
                 <button type="submit" class="form-button"><strong>Enviar Mensagem</strong></button>
             </form>
+
             <div class="banner-contato">
                 <p>Estamos abertos a ouvir suas ideias, sugestões, críticas ou elogios. Preencha o formulário ao lado e entraremos em contato o mais breve possível.</p>
             </div>
@@ -50,8 +54,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Gerador IA. Todos os direitos reservados. </p>
+        <p>&copy; 2025 Gerador IA. Todos os direitos reservados.</p>
     </footer>
-    
 </body>
 </html>
