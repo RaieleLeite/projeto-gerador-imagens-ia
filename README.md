@@ -12,12 +12,12 @@ Este projeto utiliza **HTML5**, **CSS3** e **JavaScript** para criar uma interfa
 
 ## 📌 Funcionalidades
 
-- ✅ **Página inicial** com apresentação do projeto e navegação.
-- 🧠 **Geração de imagens por prompt textual**, com JavaScript.
-- 🖼️ **Galeria dinâmica** que exibe as imagens já geradas.
-- ✉️ **Formulário de contato** com campos de nome, e-mail, assunto e mensagem.
-- 👤 **Página sobre o projeto** com descrição e equipe envolvida.
-- 🌈 Efeitos visuais com `hover`, `box-shadow`, `scale` e `transition`.
+- **Página inicial** com apresentação do projeto e navegação.
+- **Geração de imagens por prompt textual**, com JavaScript.
+- **Galeria dinâmica** que exibe as imagens já geradas.
+- **Formulário de contato** com campos de nome, e-mail, assunto e mensagem.
+- **Página sobre o projeto** com descrição.
+- **Efeitos visuais** com `hover`, `box-shadow`, `scale` e `transition`.
 
 ---
 
