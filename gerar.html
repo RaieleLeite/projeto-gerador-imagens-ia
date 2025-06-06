@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="estilos/estilo.css">
     <link rel="stylesheet" href="estilos/responsivo.css">
     <link rel="shortcut icon" href="assets/butterfly-purple.svg" type="image/x-icon">
+    <script src="scripts/script.js" defer></script>
     <title>Página para Geração de Imagens</title>
 </head>
 <body>
@@ -28,11 +29,11 @@
 
         <section class="section-gerador">
             <h2 class="titulo-diferente">Gerador de Imagens</h2>
-            <form class="form-gerar">
+            <form class="form-gerar" onsubmit="gerar(event)">
                 <label for="description" class="form-label-hidden">Descrição da Imagem</label>
                 <textarea id="descricao" name="descricao" rows="8" cols="60" required placeholder="Imagine algo incrível e digite aqui. Vamos transformar sua ideia em imagem! " class="section-form-input"></textarea>
 
-                <button action="#"  id="button-gerar" class="form-button">Gerar</button>
+                <button type="submit"  id="button-gerar" class="form-button">Gerar</button>
 
 
              </form>
